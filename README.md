@@ -1,6 +1,5 @@
 # laravel-model-settings
 Simple yet flexible settings for your Laravel models.
-TEST
 
 _Note: I will be updating this plugin in the near future to better match the API of the new `cache()` helper method that has been introduced in Laravel 5.3_
 
