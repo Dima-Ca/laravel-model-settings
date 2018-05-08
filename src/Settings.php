@@ -28,7 +28,9 @@ class Settings
      */
     public function all()
     {
-        return $this->model->settings;
+        $settings = $this->model->settings ? $this->model->settings : [];
+
+        return collect($this->model->getDefaultSettings())->merge($settings)->toArray();
     }
 
     /**
